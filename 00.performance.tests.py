@@ -16,7 +16,7 @@ fiveHundred = open("./data/five_hundred.txt", "r").read()
 threeHundredThousand = open("./data/three_hundred_thousand.txt", "r").read()
 binaryImage = open("./data/postgresql-logo.png", "rb").read()
 # connect into database
-connection_string = "host='localhost' dbname='postgres' user='xsedla0k' password='bejbojsu8m'"
+connection_string = "host='localhost' dbname='postgres' user='postgres' password=''"
 connection = psycopg2.connect(connection_string)
 cursor = connection.cursor()
 functions.listen(cursor)
